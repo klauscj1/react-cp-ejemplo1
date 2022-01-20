@@ -3,6 +3,7 @@ import { Multiplicador } from "./components/Multiplicador";
 import { MultiplicadorReact } from "./components/MultiplicadorReact";
 
 import { Saludo } from "./components/Saludo";
+import { Login } from "./pages/login/Login";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <Contador intervalo={1} contadorInicial={1} />
       <Contador intervalo={3} contadorInicial={3} /> */}
       {/* <Multiplicador numero={3} limite={20} /> */}
-      <MultiplicadorReact />
+      {/* <MultiplicadorReact /> */}
+      <Login />
     </div>
   );
 };
