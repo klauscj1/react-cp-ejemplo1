@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 export const MultiplicadorReact = () => {
-  const [formValues, setFormValues] = useState({
-    numero: null,
-    limite: null,
-  });
-
   //de acuerdo al limite armo un array desde cero hasta el limite
   function getArray() {
     let limites = [];
