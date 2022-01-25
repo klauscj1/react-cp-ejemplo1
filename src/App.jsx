@@ -6,20 +6,22 @@ import { Saludo } from "./components/Saludo";
 import { Login } from "./pages/login/Login";
 
 const App = () => {
-  return (
-    <div>
-      {/* <Saludo nombre={"Claus"} apellido={"Chocho"} />
-      <Saludo nombre={"Cristina"} apellido={"Cabrera"} />
-      <Saludo nombre={"Gabriel"} apellido={"Cuenca"} />
-      <hr />
-      <Contador intervalo={2} contadorInicial={2} />
-      <Contador intervalo={1} contadorInicial={1} />
-      <Contador intervalo={3} contadorInicial={3} /> */}
-      {/* <Multiplicador numero={3} limite={20} /> */}
-      {/* <MultiplicadorReact /> */}
-      <Login />
-    </div>
-  );
+  // return (
+  //   <div>
+  //     {/* <Saludo nombre={"Claus"} apellido={"Chocho"} />
+  //     <Saludo nombre={"Cristina"} apellido={"Cabrera"} />
+  //     <Saludo nombre={"Gabriel"} apellido={"Cuenca"} />
+  //     <hr />
+  //     <Contador intervalo={2} contadorInicial={2} />
+  //     <Contador intervalo={1} contadorInicial={1} />
+  //     <Contador intervalo={3} contadorInicial={3} /> */}
+  //     {/* <Multiplicador numero={3} limite={20} /> */}
+  //     {/* <MultiplicadorReact /> */}
+  //     <Login />
+  //   </div>
+  // );
+
+  return <Login />;
 };
 
 /*
